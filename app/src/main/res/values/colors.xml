@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#192028</color>
+    <color name="colorPrimaryDark">#111E27</color>
+    <color name="colorAccent">#1EBEA5</color>
+    <color name="colorItemBackground">#364147</color>
+    <color name="white">#FFFFFF</color>
+    <color name="receiverMessageColor">#075E55</color>
+</resources>

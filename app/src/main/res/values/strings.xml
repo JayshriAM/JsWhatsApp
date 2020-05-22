@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">JsWhatsApp</string>
+
+    <!-- Strings used for menu_main -->
+    <string name="action_search">Search</string>
+    <string name="action_new_group">New Group</string>
+    <string name="action_new_broadcast">New Broadcast</string>
+    <string name="action_whatsApp_web">WhatsApp Web</string>
+    <string name="action_stared_messages">Starred messages</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Strings used for menu_chat_screen -->
+    <string name="action_video_call">Video Call</string>
+    <string name="action_voice_call">Voice Call</string>
+    <string name="action_view_contact">Voice contact</string>
+    <string name="action_media_links_and_docs">Media, links, and docs</string>
+    <!--    <string name="action_search">Starred messages</string>-->
+    <string name="action_mute_notifications">Mute Notification</string>
+    <string name="action_wallpaper">Wallpaper</string>
+    <string name="action_more">More</string>
+    <string name="status_code_sent" />
+    <string name="status_verification_failed" />
+    <string name="status_verification_succeeded" />
+    <string name="instant_validation" />
+    <string name="status_sign_in_failed" />
+    <string name="signed_out" />
+    <string name="signed_in" />
+    <string name="firebase_status_fmt" />
+</resources>
