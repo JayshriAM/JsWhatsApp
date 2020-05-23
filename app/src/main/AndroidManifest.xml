@@ -15,11 +15,7 @@
         <activity android:name=".activities.PhoneAuthActivity"></activity>
         <activity android:name=".activities.SignUpActivity"></activity>
         <activity android:name=".activities.LoginActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity
             android:name=".activities.ChatScreenActivity"
@@ -29,7 +25,13 @@
         <activity android:name=".activities.ChatsActivity" />
         <activity
             android:name=".MainActivity"
-            android:theme="@style/Theme.MaterialComponents.NoActionBar"></activity>
+            android:theme="@style/WithActionBarTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>
